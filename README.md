@@ -254,10 +254,6 @@ Sahyog is designed with application and database security in mind:
 - Environment variables for sensitive configuration
 - Controlled access to uploaded files
 
-### ⚠️ Important
-
-Never commit credentials, API keys, service-role keys, or `.env` files to GitHub.
-
 ---
 
 ## 📁 Project Structure
