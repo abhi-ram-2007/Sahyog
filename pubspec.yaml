@@ -1,0 +1,70 @@
+name: sahyog_final
+description: A civic collaboration platform connecting citizens, universities, industries, and government.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.5.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Image and file selection
+  image_picker: ^1.2.3
+  file_selector: ^1.1.0
+
+  # Location
+  geolocator: ^14.0.3
+
+  # API / HTTP requests
+  http: ^1.6.0
+
+  # Opening external services / links
+  url_launcher: ^6.3.2
+  supabase_flutter: ^2.17.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+  # App launcher icon
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+# ============================================================
+# SAHYOG APP ICON
+# ============================================================
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+
+  image_path: "assets/images/sahyog_logo.png"
+
+  # Android adaptive icon
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/images/sahyog_logo.png"
+
+  # Web icon
+  web:
+    generate: true
+    image_path: "assets/images/sahyog_logo.png"
+    background_color: "#FFFFFF"
+    theme_color: "#078B49"
+
+  # Windows icon
+  windows:
+    generate: true
+    image_path: "assets/images/sahyog_logo.png"
+    icon_size: 48

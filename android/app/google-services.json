@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "115475653686",
+    "project_id": "sahyog-civic-platform-28ae0",
+    "storage_bucket": "sahyog-civic-platform-28ae0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:115475653686:android:32463dc880f0a3d291e497",
+        "android_client_info": {
+          "package_name": "com.example.sahyog_final"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCz9Uibla-qbmj1euE7N8WUqETMokiL6jw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
